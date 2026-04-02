@@ -1,0 +1,128 @@
+/* الألوان والمتغيرات */
+:root {
+    --main-brown: #6F4E37;
+    --light-cream: #FAF9F6;
+    --dark-text: #2D241E;
+    --whatsapp-color: #25D366;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-cream);
+    margin: 0;
+    padding: 0;
+    color: var(--dark-text);
+    padding-bottom: 100px; /* مساحة للزر العائم */
+}
+
+/* الهيدر */
+header {
+    background-color: var(--main-brown);
+    color: var(--white);
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.logo-space {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* الحاوية */
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.category-title {
+    margin: 35px 0 15px;
+    font-size: 1.3rem;
+    color: var(--main-brown);
+    border-right: 4px solid var(--main-brown);
+    padding-right: 12px;
+}
+
+/* كرت الصنف */
+.menu-item {
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+}
+
+.img-container {
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+}
+
+.item-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    background-color: #eee;
+    margin-left: 15px;
+}
+
+.item-info {
+    flex-grow: 1;
+}
+
+    .item-info h3 {
+        margin: 0;
+        font-size: 1.1rem;
+        color: var(--dark-text);
+    }
+
+    .item-info p {
+        margin: 5px 0;
+        font-size: 0.85rem;
+        color: #777;
+        line-height: 1.4;
+    }
+
+.price {
+    font-weight: bold;
+    color: var(--main-brown);
+    font-size: 1rem;
+}
+
+/* الزر العائم للطلب */
+.order-floating-btn {
+    position: fixed;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--whatsapp-color);
+    color: var(--white);
+    text-decoration: none;
+    padding: 16px 0;
+    width: 85%;
+    max-width: 400px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+    z-index: 999;
+    transition: 0.3s;
+}
+
+    .order-floating-btn:active {
+        transform: translateX(-50%) scale(0.96);
+    }
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8rem;
+    color: #999;
+}
