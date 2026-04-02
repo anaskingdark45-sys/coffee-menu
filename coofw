@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منيو الكوفي الذكي</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-space">☕</div>
+        <h1>اسم الكوفي</h1>
+        <p>استمتع بتجربة فريدة مع محاصيلنا المختصة</p>
+    </header>
+
+    <div class="container">
+        <h2 class="category-title">القهوة الباردة</h2>
+
+        <div class="menu-item">
+            <div class="img-container">
+                <img src="1.jpg" alt="آيس لاتيه" class="item-img">
+            </div>
+            <div class="item-info">
+                <h3>آيس لاتيه</h3>
+                <p>إسبريسو فاخر مع حليب بارد جداً</p>
+                <span class="price">18 ريال</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <div class="img-container">
+                <img src="2.jpg" alt="v60" class="item-img">
+            </div>
+            <div class="item-info">
+                <h3>V60 كولومبي</h3>
+                <p>قهوة مقطرة بإيحاءات الشوكولاتة والمكسرات</p>
+                <span class="price">22 ريال</span>
+            </div>
+        </div>
+
+        <h2 class="category-title">الحلويات</h2>
+
+        <div class="menu-item">
+            <div class="img-container">
+                <img src="3.jpg" alt="براونيز" class="item-img">
+            </div>
+            <div class="item-info">
+                <h3>براونيز بلجيكي</h3>
+                <p>قطع الشوكولاتة الداكنة الغنية</p>
+                <span class="price">15 ريال</span>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/9665XXXXXXXX?text=أهلاً، أريد تقديم طلب من المنيو" class="order-floating-btn">
+        ارسل طلبك عبر الواتساب 💬
+    </a>
+
+    <footer>
+        <p>جميع الأسعار تشمل ضريبة القيمة المضافة 15%</p>
+    </footer>
+
+</body>
+</html>
